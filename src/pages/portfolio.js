@@ -7,13 +7,23 @@ import Seo from "../components/seo"
 const Project = () => (
   <Layout>
     <Seo title="portfolio" />
-    <StaticImage
-      src="../images/cg-hero.jpg"
-      formats={["AUTO", "WEBP", "AVIF"]}
-      alt="hero"
-      style={{ marginBottom: `1.45rem` }}
-    />
-    <Link to="/">Go back to the homepage</Link>
+    <Link to="/">
+      <StaticImage
+        src="../images/cg-hero.jpg"
+        formats={["AUTO", "WEBP", "AVIF"]}
+        alt="hero"
+        style={{ marginBottom: `1.45rem` }}
+      />
+      Go back to the homepage
+    </Link>
+    <Link to="https://atrezi.herokuapp.com/">
+      <StaticImage
+        src="../images/Atrezi-logo.png"
+        formats={["AUTO", "WEBP", "AVIF"]}
+        alt="Atrezi"
+        style={{ marginBottom: `1.45rem` }}
+      />
+    </Link>
   </Layout>
 )
 
