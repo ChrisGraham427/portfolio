@@ -14,7 +14,6 @@ const Project = () => (
         alt="hero"
         style={{ marginBottom: `1.45rem` }}
       />
-      Go back to the homepage
     </Link>
     <Link to="https://atrezi.herokuapp.com/">
       <StaticImage
