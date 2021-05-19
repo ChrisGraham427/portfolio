@@ -14,7 +14,7 @@ const Menu = () => (
         </Link>
       </li>
       <li>
-        <Link className="menu__navlist-item" to="/">
+        <Link className="menu__navlist-item" to="/resume">
           Resume
         </Link>
       </li>

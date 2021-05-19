@@ -6,7 +6,7 @@ export default function Template({ data }) {
 
   return (
     <div>
-      <Link to="/blog">GO BACK</Link>
+      <Link to="/blog">Return To Blog List</Link>
       <h2>{post.frontmatter.title}</h2>
       <h4>
         Contributed by {post.frontmatter.author} on {post.frontmatter.date}
