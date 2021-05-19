@@ -1,20 +1,20 @@
 import * as React from "react"
-import "../styles/main.css"
+import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const IndexPage = () => (
+const Project = () => (
   <Layout>
-    <Seo title="Home" />
+    <Seo title="portfolio" />
     <StaticImage
-      src="../images/cg-main.png"
+      src="../images/cg-hero.jpg"
       formats={["AUTO", "WEBP", "AVIF"]}
-      alt="A Gatsby astronaut"
+      alt="hero"
       style={{ marginBottom: `1.45rem` }}
     />
+    <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 
-export default IndexPage
+export default Project

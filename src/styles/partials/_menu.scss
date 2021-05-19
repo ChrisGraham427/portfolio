@@ -1,0 +1,12 @@
+.menu {
+  height: 40px;
+  &__navlist {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  &__navlist-item {
+    text-decoration: none;
+    color: black;
+  }
+}

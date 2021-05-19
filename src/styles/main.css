@@ -1,0 +1,44 @@
+* {
+  font-family: "Main";
+}
+
+.header {
+  color: black;
+  background: yellow;
+}
+
+.menu {
+  height: 40px;
+}
+
+.menu__navlist {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.menu__navlist-item {
+  text-decoration: none;
+  color: black;
+}
+
+@font-face {
+  font-family: "Main";
+  src: url("../fonts/Kanit-Regular.woff2") format("woff2"), url("../fonts/Kanit-Regular.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bold";
+  src: url("../fonts/Kanit-Bold.woff2") format("woff2"), url("../fonts/Kanit-Bold.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+/*# sourceMappingURL=main.css.map */
