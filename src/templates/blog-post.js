@@ -16,7 +16,6 @@ export default function Template({ data }) {
 
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
-      <div class="s9-widget-wrapper"></div>
     </>
   )
 }

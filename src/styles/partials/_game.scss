@@ -1,0 +1,18 @@
+.game {
+  &__container {
+    text-align: center;
+    align-content: center;
+  }
+  &__board {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 320px;
+  }
+  &__box {
+    width: 81px;
+    height: 80px;
+    border: 2px solid blue;
+    display: inline-block;
+    line-height: 80px;
+  }
+}

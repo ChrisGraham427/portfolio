@@ -42,4 +42,27 @@
   font-style: normal;
   font-display: swap;
 }
+
+.game__container {
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.game__board {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 320px;
+}
+
+.game__box {
+  width: 81px;
+  height: 80px;
+  border: 2px solid blue;
+  display: inline-block;
+  line-height: 80px;
+}
 /*# sourceMappingURL=main.css.map */

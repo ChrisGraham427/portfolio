@@ -39,6 +39,12 @@ const Menu = () => (
           Blog
         </Link>
       </li>
+      <li>
+        <AiOutlineComment />
+        <Link className="menu__navlist-item" to="/tictactoe">
+          Game
+        </Link>
+      </li>
     </ul>
   </div>
 )
