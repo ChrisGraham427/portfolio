@@ -21,6 +21,7 @@ export default function Template({ data }) {
         </h4>
 
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div class="s9-widget-wrapper"></div>
         <Gitalk options={gitalkConfig} />
       </div>
     </>

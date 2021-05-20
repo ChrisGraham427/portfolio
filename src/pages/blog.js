@@ -31,7 +31,6 @@ const BlogPage = ({ data }) => (
     <Link to="/">
       <button>Go Back</button>
     </Link>
-    <div class="s9-widget-wrapper"></div>
   </Layout>
 )
 
