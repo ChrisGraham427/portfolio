@@ -42,7 +42,7 @@ const Menu = () => (
       <li>
         <AiOutlineComment />
         <Link className="menu__navlist-item" to="/games">
-          Game
+          Games
         </Link>
       </li>
     </ul>

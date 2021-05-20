@@ -86,9 +86,18 @@ class TicTacToe extends Component {
         />
 
         <div className="game__board">{this.renderBoxes()}</div>
-        <button disabled={!this.state.winner} onClick={() => this.reset()}>
-          RESET
-        </button>
+        <div className="game__button-div">
+          <button
+            className="game__button"
+            disabled={!this.state.winner}
+            onClick={() => this.reset()}
+          >
+            PLAY AGAIN
+          </button>
+          <button className="game__button" onClick={() => this.reset()}>
+            RESET
+          </button>
+        </div>
       </div>
     )
   }
