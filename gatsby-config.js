@@ -74,9 +74,9 @@ module.exports = {
       resolve: `gatsby-plugin-gitalk`,
       options: {
         config: {
-          clientID: "fe97a83894b465a98a69",
-          clientSecret: "61ff90fb24f761263e78f77b92bb26c037863bf5",
-          repo: "gatsby-demo-comments",
+          clientID: "44cb6096686dafae905b",
+          clientSecret: "366562a1a33db22905262d7b89f2762656a08cc7",
+          repo: "portfolio",
           owner: "ChrisGraham427",
           admin: ["ChrisGraham427"],
         },
