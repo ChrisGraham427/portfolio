@@ -8,7 +8,13 @@ const BlogPage = ({ data }) => (
   <Layout>
     <Seo title="Blog" />
     <div className="blog">
-      <h1>Latest Posts</h1>
+      <h1>Developer Discussion</h1>
+      <p>
+        A collection of my thoughts as I learn about development, I'll write
+        about the ups, the downs, the fails and the wins. It's all about the
+        journey with this one, so follow along and feel free to comment I would
+        love to hear everyone else's thoughts.
+      </p>
       {data.allMarkdownRemark.edges.map(post => (
         <div key={post.node.id}>
           <h3>{post.node.frontmatter.title}</h3>

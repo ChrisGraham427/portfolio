@@ -36,7 +36,7 @@ const Menu = () => (
       <li>
         <AiOutlineComment />
         <Link className="menu__navlist-item" to="/blog">
-          Blog
+          Discuss
         </Link>
       </li>
       <li>

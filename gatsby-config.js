@@ -70,5 +70,17 @@ module.exports = {
         src: "//cdn.social9.com/js/socialshare.min.js",
       },
     },
+    {
+      resolve: `gatsby-plugin-gitalk`,
+      options: {
+        config: {
+          clientID: "fe97a83894b465a98a69",
+          clientSecret: "61ff90fb24f761263e78f77b92bb26c037863bf5",
+          repo: "gatsby-demo-comments",
+          owner: "ChrisGraham427",
+          admin: ["ChrisGraham427"],
+        },
+      },
+    },
   ],
 }

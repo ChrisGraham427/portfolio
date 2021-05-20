@@ -69,7 +69,6 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 249px;
-  background: yellow;
   border-radius: 6px;
   margin-bottom: 1rem;
 }
@@ -84,6 +83,7 @@
   display: inline-block;
   line-height: 80px;
   border-radius: 6px;
+  background: yellow;
 }
 
 .game__button {
