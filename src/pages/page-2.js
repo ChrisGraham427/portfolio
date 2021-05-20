@@ -12,7 +12,7 @@ const SecondPage = () => (
       src="../images/profile.jpg"
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="hero"
-      style={{ marginBottom: `1.45rem`, height: 300 }}
+      style={{ marginBottom: `1.45rem`, height: 450 }}
     />
     <p>
       Contrary to popular belief, Lorem Ipsum is not simply random text. It has

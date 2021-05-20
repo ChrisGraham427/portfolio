@@ -16,8 +16,8 @@ const Project = () => (
         />
       </Link>
       <p>
-        Small Scale Project for Everyone. Built with React, Express, MySQL and
-        Node.js. This CRUD application allows users to track project
+        Small Scale Project Management for Everyone. Built with React, Express,
+        MySQL and Node.js. This CRUD application allows users to track project
         information, contacts, images and tasks.
       </p>
     </div>

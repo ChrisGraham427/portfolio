@@ -4,7 +4,7 @@
 
 .header {
   color: black;
-  background: yellow;
+  background: #fcdc06;
 }
 
 .menu {
@@ -22,6 +22,7 @@
 }
 
 .menu__navlist-item {
+  padding-left: 10px;
   text-decoration: none;
   color: black;
 }
