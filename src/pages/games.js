@@ -6,10 +6,9 @@ import Seo from "../components/seo"
 
 const GamePage = () => (
   <Layout>
-    <Seo title="Resume" />
-    <h1>Resume</h1>
+    <Seo title="tic-tac-toe" />
     <TicTacToe />
-    <Link to="/">Go back to the homepage</Link>
+    <Link to="/">Home</Link>
   </Layout>
 )
 

@@ -1,5 +1,7 @@
 import React, { Component } from "react"
-import GameStatus from "../components/gamestatus"
+import Layout from "./layout"
+import Seo from "./seo"
+import GameStatus from "./gamestatus"
 class TicTacToe extends Component {
   constructor(props) {
     super(props)
