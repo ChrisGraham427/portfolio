@@ -7,22 +7,42 @@ import Seo from "../components/seo"
 const Project = () => (
   <Layout>
     <Seo title="portfolio" />
-    <Link to="/">
+    <div>
+      <Link to="https://atrezi.herokuapp.com/">
+        <StaticImage
+          src="../images/Atrezi-logo.png"
+          formats={["AUTO", "WEBP", "AVIF"]}
+          alt="Atrezi"
+        />
+      </Link>
+      <p>
+        Small Scale Project for Everyone. Built with React, Express, MySQL and
+        Node.js. This CRUD application allows users to track project
+        information, contacts, images and tasks.
+      </p>
+    </div>
+    <div>
       <StaticImage
-        src="../images/cg-hero.jpg"
+        src="../images/me-ma.png"
         formats={["AUTO", "WEBP", "AVIF"]}
-        alt="hero"
-        style={{ marginBottom: `1.45rem` }}
+        alt="Me & Ma Organic Microgreens"
       />
-    </Link>
-    <Link to="https://atrezi.herokuapp.com/">
-      <StaticImage
-        src="../images/Atrezi-logo.png"
-        formats={["AUTO", "WEBP", "AVIF"]}
-        alt="Atrezi"
-        style={{ marginBottom: `1.45rem` }}
-      />
-    </Link>
+      <p>
+        Coming Soon! Me & Ma Organic Microgreens is an Gatsby and Shopify based
+        E-Commerce site specializing in GMO Free Organic Microgreen growing kits
+        delivered right to your door.
+      </p>
+    </div>
+    <div>
+      <Link to="/">
+        <StaticImage
+          src="../images/cg-main.png"
+          formats={["AUTO", "WEBP", "AVIF"]}
+          alt="hero"
+        />
+      </Link>
+      <p>Personal Portfolio site built with Gatsby.</p>
+    </div>
   </Layout>
 )
 

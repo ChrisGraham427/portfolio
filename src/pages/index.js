@@ -12,7 +12,6 @@ const IndexPage = () => (
       src="../images/cg-main.png"
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="A Gatsby astronaut"
-      style={{ marginBottom: `1.45rem` }}
     />
   </Layout>
 )

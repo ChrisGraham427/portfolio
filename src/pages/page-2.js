@@ -6,13 +6,13 @@ import Seo from "../components/seo"
 
 const SecondPage = () => (
   <Layout>
-    <Seo title="Page two" />
+    <Seo title="About Me" />
     <h1>About Me</h1>
     <StaticImage
       src="../images/profile.jpg"
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="hero"
-      style={{ marginBottom: `1.45rem` }}
+      style={{ marginBottom: `1.45rem`, height: 300 }}
     />
     <p>
       Contrary to popular belief, Lorem Ipsum is not simply random text. It has

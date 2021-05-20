@@ -4,6 +4,11 @@ const Menu = () => (
   <div className="menu">
     <ul className="menu__navlist">
       <li>
+        <Link className="menu__navlist-item" to="/">
+          Home
+        </Link>
+      </li>
+      <li>
         <Link className="menu__navlist-item" to="/page-2/">
           Info
         </Link>
