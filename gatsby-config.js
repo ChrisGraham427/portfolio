@@ -43,5 +43,32 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+
+    {
+      resolve: `gatsby-plugin-social9-comment`,
+      options: {
+        content: "971f93d40cfe4c95a4aaa1b8fca68e1d",
+        async: true,
+        defer: true,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-social9-socialshare",
+      options: {
+        async: true,
+        defer: true,
+        content: "971f93d40cfe4c95a4aaa1b8fca68e1d",
+      },
+    },
+    {
+      resolve: "gatsby-plugin-load-script",
+      options: {
+        id: "s9-sdk",
+        async: true,
+        defer: true,
+        content: "971f93d40cfe4c95a4aaa1b8fca68e1d",
+        src: "//cdn.social9.com/js/socialshare.min.js",
+      },
+    },
   ],
 }

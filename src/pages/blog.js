@@ -16,6 +16,7 @@ const BlogPage = ({ data }) => (
             Posted by {post.node.frontmatter.author} on{" "}
             {post.node.frontmatter.date}
           </small>
+          <br />
           <Link to={post.node.frontmatter.path}>Read More</Link>
           <hr />
         </div>
