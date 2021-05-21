@@ -19,22 +19,22 @@
   }
   &__box {
     font-size: 3rem;
-    color: blue;
+    color: black;
     width: 81px;
     height: 80px;
-    border: 4px solid blue;
+    border: 4px solid black;
     margin: 1px;
     display: inline-block;
     line-height: 80px;
     border-radius: 6px;
-    background: yellow;
+    background: $mainyellow;
   }
   &__button {
     font-family: "bold";
-    background: blue;
+    background: black;
     margin: 8px;
     padding: 6px 12px;
-    color: yellow;
+    color: $mainyellow;
     border: none;
     border-radius: 4px;
   }
@@ -50,9 +50,9 @@
   }
   &__form-label {
     font-family: "bold";
-    border: 4px solid blue;
-    color: blue;
-    background: yellow;
+    border: 4px solid black;
+    color: black;
+    background: $mainyellow;
     border-radius: 4px;
     padding: 4px;
     margin: 4px;

@@ -1,0 +1,50 @@
+.blog {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    color: white;
+    margin-top: 2rem;
+    padding: 1rem 0;
+    border: 14px solid $mainyellow;
+    border-radius: 1.5rem;
+    width: 70%;
+    margin-left: 15%;
+    max-width: 1440px;
+
+    text-align: center;
+  }
+  &__button-readmore {
+    border-radius: 8px;
+    background: black;
+    color: white;
+    margin: 1rem 0;
+  }
+  &__button-goback {
+    border-radius: 8px;
+    background: white;
+    color: black;
+    border: 1px solid white;
+  }
+  &__description {
+    width: 60%;
+  }
+  &__small {
+    font-size: smaller;
+    background: white;
+    border-radius: 0.5rem;
+    color: black;
+    padding: 0.25rem;
+  }
+  &__post-box {
+    background: white;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  &__post-title {
+    color: black;
+    padding: 0 0.5rem;
+  }
+}

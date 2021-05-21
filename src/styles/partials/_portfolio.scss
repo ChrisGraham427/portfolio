@@ -1,0 +1,9 @@
+.portfolio {
+  &__container {
+    padding-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
