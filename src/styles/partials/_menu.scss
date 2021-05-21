@@ -1,12 +1,13 @@
 .menu {
-  height: 40px;
+  height: 2.5vh;
   &__navlist {
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
   }
   &__navlist-item {
-    padding-left: 10px;
+    font-size: 0.75rem;
+    padding-left: 5px;
     text-decoration: none;
     color: black;
   }

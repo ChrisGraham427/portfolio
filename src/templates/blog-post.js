@@ -11,7 +11,7 @@ export default function Template({ data }) {
   }
   return (
     <>
-      <div>
+      <div className="blog__post">
         <Link to="/blog">
           <button>Developer Discussion</button>
         </Link>

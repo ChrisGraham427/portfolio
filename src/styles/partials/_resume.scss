@@ -1,0 +1,13 @@
+.resume {
+  &__image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10%;
+  }
+  &__title {
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5%;
+  }
+}
