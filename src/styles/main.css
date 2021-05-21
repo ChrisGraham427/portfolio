@@ -4,6 +4,7 @@
 
 .background__hero {
   width: 100%;
+  height: 97.5vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -154,28 +155,12 @@
 }
 
 .hero__image {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  margin: 0 auto;
 }
 
 .resume__image {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   margin: 0 10%;
+  height: 100%;
 }
 
 .resume__title {
@@ -186,5 +171,18 @@
       -ms-flex-pack: center;
           justify-content: center;
   padding-top: 2.5%;
+}
+
+.resume__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=main.css.map */

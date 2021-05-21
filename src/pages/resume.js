@@ -7,26 +7,28 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const ResumePage = props => (
-  <Layout>
-    <Seo title="Resume" />
-    <BackgroundImage
-      alt="background-hero"
-      fluid={props.data.indexImage.childImageSharp.fluid}
-      className="background__hero"
-    >
-      <h1 className="resume__title">Resume</h1>
-      <StaticImage
-        src="../images/cg-resume.jpg"
-        formats={["AUTO", "WEBP", "AVIF"]}
-        alt="Resume"
-        className="resume__image"
-        style={{ maxWidth: 1000, height: 1200 }}
-      />
-      <Link to="/">
-        <button>HOME</button>
-      </Link>
-    </BackgroundImage>
-  </Layout>
+  <BackgroundImage
+    alt="background-hero"
+    fluid={props.data.indexImage.childImageSharp.fluid}
+    className="background__hero"
+  >
+    <Layout>
+      <Seo title="Resume" />
+      <div className="resume__container">
+        <h1 className="resume__title">Resume</h1>
+        <StaticImage
+          src="../images/cg-resume.jpg"
+          formats={["AUTO", "WEBP", "AVIF"]}
+          alt="Resume"
+          className="resume__image"
+          style={{ maxWidth: 1200, maxHeight: 1700 }}
+        />
+        <Link to="/">
+          <button>HOME</button>
+        </Link>
+      </div>
+    </Layout>
+  </BackgroundImage>
 )
 
 export default ResumePage

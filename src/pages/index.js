@@ -19,6 +19,14 @@ const IndexPage = props => (
         src="../images/cg-main.png"
         formats={["AUTO", "WEBP", "AVIF"]}
         alt="hero"
+        style={{
+          maxWidth: 1000,
+          maxHeight: 1000,
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          paddingTop: "38%",
+        }}
       />
     </BackgroundImage>
   </Layout>
