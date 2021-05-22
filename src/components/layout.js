@@ -8,8 +8,9 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-
+import "../styles/main.css"
 import Header from "./header"
+import HeroContact from "./herocontact"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -29,6 +30,7 @@ const Layout = ({ children }) => {
       <div>
         <main>{children}</main>
       </div>
+      <HeroContact />
     </>
   )
 }

@@ -7,10 +7,14 @@ class GameStatus extends Component {
 
   renderHtml() {
     if (this.props.winner) {
-      return <h2>Winner is {this.props.winner}</h2>
+      return (
+        <h2 className="game__instruction">Winner is {this.props.winner}</h2>
+      )
     } else {
       return this.props.player ? (
-        <h2>Next player is {this.props.player}</h2>
+        <h2 className="game__instruction">
+          Next player is {this.props.player}
+        </h2>
       ) : (
         <Player player={e => this.handleSetPlayer(e)} />
       )

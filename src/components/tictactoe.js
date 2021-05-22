@@ -76,7 +76,7 @@ class TicTacToe extends Component {
   render() {
     return (
       <div className="game__container">
-        <h1>TIC TAC TOE</h1>
+        <h1 className="game__title">TIC TAC TOE</h1>
         <GameStatus
           player={this.state.player}
           setPlayer={e => {

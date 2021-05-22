@@ -1,6 +1,6 @@
 import React from "react"
 import Link from "gatsby-link"
-import { AiOutlineHome } from "@react-icons/all-files/ai/AiOutlineHome"
+
 import { AiOutlineBook } from "@react-icons/all-files/ai/AiOutlineBook"
 import { AiOutlineInfoCircle } from "@react-icons/all-files/ai/AiOutlineInfoCircle"
 import { AiOutlinePicture } from "@react-icons/all-files/ai/AiOutlinePicture"
@@ -10,12 +10,6 @@ import { AiOutlineCodeSandbox } from "@react-icons/all-files/ai/AiOutlineCodeSan
 const Menu = () => (
   <div className="menu">
     <ul className="menu__navlist">
-      <li className="menu__navlist-link">
-        <AiOutlineHome className="menu__navlist-icon" />
-        <Link className="menu__navlist-item" to="/">
-          HOME
-        </Link>
-      </li>
       <li className="menu__navlist-link">
         <AiOutlineInfoCircle className="menu__navlist-icon" />
         <Link className="menu__navlist-item" to="/page-2/">
