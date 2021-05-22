@@ -417,6 +417,7 @@
 .herocontact__link-title {
   text-decoration: none;
   color: white;
+  margin: 0;
 }
 
 .herocontact__section {
@@ -431,5 +432,19 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.herocontact__line {
+  width: 100%;
+  height: 4px;
+  background: #fcdc06;
+  margin: 0;
+}
+
+.herocontact__line-black {
+  width: 100%;
+  height: 6px;
+  background: black;
+  margin: 0;
 }
 /*# sourceMappingURL=main.css.map */
