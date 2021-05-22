@@ -5,44 +5,45 @@ import { AiOutlineBook } from "@react-icons/all-files/ai/AiOutlineBook"
 import { AiOutlineInfoCircle } from "@react-icons/all-files/ai/AiOutlineInfoCircle"
 import { AiOutlinePicture } from "@react-icons/all-files/ai/AiOutlinePicture"
 import { AiOutlineComment } from "@react-icons/all-files/ai/AiOutlineComment"
+import { AiOutlineCodeSandbox } from "@react-icons/all-files/ai/AiOutlineCodeSandbox"
 
 const Menu = () => (
   <div className="menu">
     <ul className="menu__navlist">
-      <li>
-        <AiOutlineHome />
+      <li className="menu__navlist-link">
+        <AiOutlineHome className="menu__navlist-icon" />
         <Link className="menu__navlist-item" to="/">
-          Home
+          HOME
         </Link>
       </li>
-      <li>
-        <AiOutlineInfoCircle />
+      <li className="menu__navlist-link">
+        <AiOutlineInfoCircle className="menu__navlist-icon" />
         <Link className="menu__navlist-item" to="/page-2/">
-          Info
+          INFO
         </Link>
       </li>
-      <li>
-        <AiOutlinePicture />
+      <li className="menu__navlist-link">
+        <AiOutlinePicture className="menu__navlist-icon" />
         <Link className="menu__navlist-item" to="/portfolio/">
-          Portfolio
+          PORTFOLIO
         </Link>
       </li>
-      <li>
-        <AiOutlineBook />
+      <li className="menu__navlist-link">
+        <AiOutlineBook className="menu__navlist-icon" />
         <Link className="menu__navlist-item" to="/resume">
-          Resume
+          RESUME
         </Link>
       </li>
-      <li>
-        <AiOutlineComment />
+      <li className="menu__navlist-link">
+        <AiOutlineComment className="menu__navlist-icon" />
         <Link className="menu__navlist-item" to="/blog">
-          Discuss
+          DISCUSS
         </Link>
       </li>
-      <li>
-        <AiOutlineComment />
+      <li className="menu__navlist-link">
+        <AiOutlineCodeSandbox className="menu__navlist-icon" />
         <Link className="menu__navlist-item" to="/games">
-          Games
+          GAMES
         </Link>
       </li>
     </ul>

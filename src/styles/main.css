@@ -15,15 +15,37 @@
 }
 
 .header {
-  color: black;
-  background: #fcdc06;
+  color: #fcdc06;
+  background: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.menu {
-  height: 2.5vh;
+.header__div {
+  width: 100%;
+}
+
+.header__linebreak {
+  background: #fcdc06;
+  height: 2px;
+  margin: 0;
+}
+
+.header__linebreak-black {
+  background: black;
+  height: 4px;
+  margin: 0;
 }
 
 .menu__navlist {
+  height: 4vh;
   list-style-type: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -31,13 +53,39 @@
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+}
+
+.menu__navlist-link {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.menu__navlist-link:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
 }
 
 .menu__navlist-item {
   font-size: 0.75rem;
   padding-left: 5px;
   text-decoration: none;
-  color: black;
+  color: white;
+}
+
+.menu__navlist-icon {
+  width: 20px;
 }
 
 @font-face {
@@ -209,6 +257,20 @@
           align-items: center;
 }
 
+.resume__button {
+  font-family: "bold";
+  margin-top: 1.5rem;
+  padding: 0 1rem;
+  border-radius: 0.5rem;
+  background: #fcdc06;
+  color: black;
+}
+
+.resume__button:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+}
+
 .portfolio__container {
   padding-top: 3vh;
   display: -webkit-box;
@@ -238,8 +300,8 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: black;
-  color: white;
+  background: white;
+  color: black;
   margin-top: 2rem;
   padding: 1rem 0;
   border: 14px solid #fcdc06;
@@ -257,11 +319,22 @@
   margin: 1rem 0;
 }
 
+.blog__button-readmore:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+}
+
 .blog__button-goback {
+  font-family: "bold";
   border-radius: 8px;
-  background: white;
+  background: #fcdc06;
   color: black;
   border: 1px solid white;
+}
+
+.blog__button-goback:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
 }
 
 .blog__description {
@@ -270,7 +343,7 @@
 
 .blog__small {
   font-size: smaller;
-  background: white;
+  background: #fcdc06;
   border-radius: 0.5rem;
   color: black;
   padding: 0.25rem;

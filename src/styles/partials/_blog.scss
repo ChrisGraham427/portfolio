@@ -4,8 +4,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: black;
-    color: white;
+    background: white;
+    color: black;
     margin-top: 2rem;
     padding: 1rem 0;
     border: 14px solid $mainyellow;
@@ -22,18 +22,26 @@
     color: white;
     margin: 1rem 0;
   }
+  &__button-readmore:hover {
+    transform: scale(1.25);
+  }
+
   &__button-goback {
+    font-family: "bold";
     border-radius: 8px;
-    background: white;
+    background: $mainyellow;
     color: black;
     border: 1px solid white;
+  }
+  &__button-goback:hover {
+    transform: scale(1.25);
   }
   &__description {
     width: 60%;
   }
   &__small {
     font-size: smaller;
-    background: white;
+    background: $mainyellow;
     border-radius: 0.5rem;
     color: black;
     padding: 0.25rem;

@@ -21,10 +21,10 @@ const ResumePage = props => (
           formats={["AUTO", "WEBP", "AVIF"]}
           alt="Resume"
           className="resume__image"
-          style={{ maxWidth: 1200, maxHeight: 1700 }}
+          style={{ maxWidth: 1500, maxHeight: 1800 }}
         />
         <Link to="/">
-          <button>HOME</button>
+          <button className="resume__button">HOME</button>
         </Link>
       </div>
     </Layout>

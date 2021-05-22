@@ -21,7 +21,7 @@ const SecondPage = props => (
           formats={["AUTO", "WEBP", "AVIF"]}
           alt="hero"
           style={{
-            maxWidth: 800,
+            maxWidth: 650,
           }}
         />
         <p className="info__bio">

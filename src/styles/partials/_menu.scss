@@ -1,14 +1,29 @@
 .menu {
-  height: 2.5vh;
   &__navlist {
+    height: 4vh;
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    &-link {
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    &-link:hover {
+      transform: scale(1.25);
+    }
   }
+
   &__navlist-item {
     font-size: 0.75rem;
     padding-left: 5px;
     text-decoration: none;
-    color: black;
+    color: white;
+  }
+  &__navlist-icon {
+    width: 20px;
   }
 }

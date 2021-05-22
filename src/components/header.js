@@ -5,15 +5,10 @@ import Menu from "../components/menu"
 
 const Header = () => (
   <header className="header">
-    {" "}
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
+    <div className="header__div">
       <Menu />
+      <hr className="header__linebreak" />
+      <hr className="header__linebreak-black" />
     </div>
   </header>
 )

@@ -13,4 +13,15 @@
     flex-direction: column;
     align-items: center;
   }
+  &__button {
+    font-family: "bold";
+    margin-top: 1.5rem;
+    padding: 0 1rem;
+    border-radius: 0.5rem;
+    background: $mainyellow;
+    color: black;
+  }
+  &__button:hover {
+    transform: scale(1.25);
+  }
 }

@@ -1,4 +1,21 @@
 .header {
-  color: black;
-  background: $mainyellow;
+  color: $mainyellow;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &__div {
+    width: 100%;
+  }
+  &__linebreak {
+    background: $mainyellow;
+    height: 2px;
+    margin: 0;
+
+    &-black {
+      background: black;
+      height: 4px;
+      margin: 0;
+    }
+  }
 }
