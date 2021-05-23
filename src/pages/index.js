@@ -5,6 +5,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import { AiOutlineLinkedin } from "@react-icons/all-files/ai/AiOutlineLinkedin"
 
 const IndexPage = props => (
   <Layout>
@@ -14,20 +15,19 @@ const IndexPage = props => (
       fluid={props.data.indexImage.childImageSharp.fluid}
       className="background__hero"
     >
-      <StaticImage
-        className="hero__image"
-        src="../images/cg-main.png"
-        formats={["AUTO", "WEBP", "AVIF"]}
-        alt="hero"
-        style={{
-          maxWidth: 1000,
-          maxHeight: 1000,
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          paddingTop: "38%",
-        }}
-      />
+      <div className="hero__image-div">
+        <StaticImage
+          className="hero__image"
+          src="../images/cg-main.png"
+          formats={["AUTO", "WEBP", "AVIF"]}
+          alt="hero"
+          style={{
+            maxWidth: 1000,
+            maxHeight: 1000,
+          }}
+        />
+        <h2 className="hero__image-tagline">Modern Web Development</h2>
+      </div>
     </BackgroundImage>
   </Layout>
 )

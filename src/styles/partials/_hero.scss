@@ -1,3 +1,16 @@
-.hero__image {
-  margin: 0 auto;
+.hero {
+  &__image {
+    &-div {
+      padding-top: 7.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    &-tagline {
+      position: relative;
+      top: -8rem;
+      color: black;
+    }
+  }
 }

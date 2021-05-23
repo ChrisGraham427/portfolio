@@ -1,9 +1,8 @@
 .herocontact {
   display: flex;
-
   align-items: center;
   justify-content: space-evenly;
-  height: 20vh;
+  height: 14vh;
   width: 100%;
   color: $mainyellow;
   background: black;
@@ -16,10 +15,12 @@
     transform: scale(1.25);
   }
   &__title {
+    font-size: 1rem;
     color: white;
     text-decoration: none;
   }
   &__link-title {
+    font-size: 0.875rem;
     text-decoration: none;
     color: white;
     margin: 0;
