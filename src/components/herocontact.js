@@ -21,7 +21,7 @@ const HeroContact = () => {
           <Link to="https://www.linkedin.com/in/chriswgraham">
             <AiOutlineLinkedin className="herocontact__icon" />
           </Link>
-          <p className="herocontact__link-title">ChrisGraham427</p>
+          <p className="herocontact__link-title">Chris W Graham</p>
         </div>
         <div className="herocontact__section">
           <h3 className="herocontact__title">Email</h3>
