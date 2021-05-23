@@ -4,10 +4,16 @@
 
 .background__hero {
   width: 100%;
-  height: 80.25vh;
+  height: 72vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+@media (min-width: 1440px) {
+  .background__hero {
+    height: 80.5vh;
+  }
 }
 
 .background__hero-about {
@@ -341,8 +347,13 @@
   color: black;
   margin-top: 2rem;
   padding: 1rem 0;
-  height: 80vh;
   text-align: center;
+}
+
+@media (min-width: 1440px) {
+  .blog__container {
+    height: 80vmin;
+  }
 }
 
 .blog__button-readmore {
@@ -371,7 +382,7 @@
 }
 
 .blog__description {
-  width: 40%;
+  width: 85%;
 }
 
 .blog__small {

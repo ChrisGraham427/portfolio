@@ -8,9 +8,11 @@
     color: black;
     margin-top: 2rem;
     padding: 1rem 0;
-    height: 80vh;
 
     text-align: center;
+    @include desktop {
+      height: 80vmin;
+    }
   }
   &__button-readmore {
     border-radius: 8px;
@@ -33,7 +35,7 @@
     transform: scale(1.25);
   }
   &__description {
-    width: 40%;
+    width: 85%;
   }
   &__small {
     font-size: smaller;

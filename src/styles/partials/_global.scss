@@ -3,10 +3,13 @@
 }
 .background__hero {
   width: 100%;
-  height: 80.25vh;
+  height: 72vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  @include desktop {
+    height: 80.5vh;
+  }
   &-about {
     height: 100%;
   }
