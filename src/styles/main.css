@@ -421,9 +421,16 @@
 }
 
 .herocontact__icon {
-  height: 50px;
-  width: 50px;
+  width: 28px;
+  height: 28px;
   color: #fcdc06;
+}
+
+@media (min-width: 1440px) {
+  .herocontact__icon {
+    height: 50px;
+    width: 50px;
+  }
 }
 
 .herocontact__icon:hover {
@@ -432,6 +439,7 @@
 }
 
 .herocontact__title {
+  font-size: 0.75rem;
   margin: 0;
   font-size: 1rem;
   color: white;
@@ -439,7 +447,7 @@
 }
 
 .herocontact__link-title {
-  font-size: 0.875rem;
+  font-size: 0.675rem;
   text-decoration: none;
   color: white;
   margin: 0;

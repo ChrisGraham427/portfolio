@@ -7,21 +7,26 @@
   color: $mainyellow;
   background: black;
   &__icon {
-    height: 50px;
-    width: 50px;
+    width: 28px;
+    height: 28px;
     color: $mainyellow;
+    @include desktop {
+      height: 50px;
+      width: 50px;
+    }
   }
   &__icon:hover {
     transform: scale(1.25);
   }
   &__title {
+    font-size: 0.75rem;
     margin: 0;
     font-size: 1rem;
     color: white;
     text-decoration: none;
   }
   &__link-title {
-    font-size: 0.875rem;
+    font-size: 0.675rem;
     text-decoration: none;
     color: white;
     margin: 0;
