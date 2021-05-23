@@ -429,6 +429,7 @@
 }
 
 .herocontact__title {
+  margin: 0;
   font-size: 1rem;
   color: white;
   text-decoration: none;
