@@ -8,11 +8,7 @@
     color: black;
     margin-top: 2rem;
     padding: 1rem 0;
-    border: 14px solid $mainyellow;
-    border-radius: 1.5rem;
-    width: 70%;
-    margin-left: 15%;
-    max-width: 1440px;
+    height: 80vh;
 
     text-align: center;
   }
@@ -37,7 +33,7 @@
     transform: scale(1.25);
   }
   &__description {
-    width: 60%;
+    width: 40%;
   }
   &__small {
     font-size: smaller;
