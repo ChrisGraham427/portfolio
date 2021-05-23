@@ -230,12 +230,19 @@
 }
 
 .info__bio {
-  color: white;
-  margin: 0 5%;
+  text-align: center;
+  background: #fcdc06;
+  padding: 0.5rem;
+  color: black;
+  margin-top: 1rem;
   max-width: 1000px;
+  border: 3px solid white;
+  border-radius: 1rem;
 }
 
 .info__container {
+  height: 81vh;
+  padding: 2.125rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -246,11 +253,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.info__title {
-  color: white;
-  margin-top: 1rem;
 }
 
 .hero__image-div {
@@ -323,10 +325,8 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
+  margin-left: 2.5%;
+  color: white;
 }
 
 .blog__container {

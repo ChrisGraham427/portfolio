@@ -3,12 +3,20 @@ import Link from "gatsby-link"
 import { AiOutlineGithub } from "@react-icons/all-files/ai/AiOutlineGithub"
 import { AiOutlineLinkedin } from "@react-icons/all-files/ai/AiOutlineLinkedin"
 import { AiOutlineMail } from "@react-icons/all-files/ai/AiOutlineMail"
+import { AiOutlineHome } from "@react-icons/all-files/ai/AiOutlineHome"
 const HeroContact = () => {
   return (
     <>
       <hr className="herocontact__line-black" />
       <hr className="herocontact__line" />
       <div className="herocontact">
+        <div className="herocontact__section">
+          <h3 className="herocontact__title">Home</h3>
+          <Link to="/">
+            <AiOutlineHome className="herocontact__icon" />
+          </Link>
+          <p className="herocontact__link-title">chrisgraham.dev</p>
+        </div>
         <div className="herocontact__section">
           <h3 className="herocontact__title">GitHub</h3>
           <Link to="https://github.com/ChrisGraham427">
