@@ -38,7 +38,7 @@ const Project = props => (
             style={{ maxHeight: 700 }}
           />
           <p>
-            Coming Soon! Me & Ma Organic Microgreens is an Gatsby and Shopify
+            Coming Soon! Me & Ma Organic Microgreens is a Gatsby and Shopify
             based E-Commerce site specializing in GMO Free Organic Microgreen
             growing kits delivered right to your door.
           </p>

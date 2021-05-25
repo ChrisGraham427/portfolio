@@ -5,7 +5,6 @@ import { StaticImage } from "gatsby-plugin-image"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import { AiOutlineLinkedin } from "@react-icons/all-files/ai/AiOutlineLinkedin"
 
 const IndexPage = props => (
   <Layout>
@@ -22,8 +21,8 @@ const IndexPage = props => (
           formats={["AUTO", "WEBP", "AVIF"]}
           alt="hero"
           style={{
-            maxWidth: 1000,
-            maxHeight: 1000,
+            maxWidth: 800,
+            maxHeight: 800,
           }}
         />
         <h2 className="hero__image-tagline">Modern Web Development</h2>
