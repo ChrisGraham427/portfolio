@@ -2,12 +2,12 @@
   font-family: "Main";
 }
 .background__hero {
-  height: 85.5vh;
+  height: 85vh;
   width: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: repeat-y;
   @include desktop {
-    height: 90vh;
+    height: 88vh;
   }
 }

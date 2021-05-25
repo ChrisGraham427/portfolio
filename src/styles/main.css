@@ -3,7 +3,7 @@
 }
 
 .background__hero {
-  height: 85.5vh;
+  height: 85vh;
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -12,7 +12,7 @@
 
 @media (min-width: 1440px) {
   .background__hero {
-    height: 90vh;
+    height: 88vh;
   }
 }
 
@@ -58,6 +58,7 @@
       -ms-flex-align: center;
           align-items: center;
   margin: 0;
+  padding: 0.5rem 0;
 }
 
 .menu__navlist-link {
@@ -460,6 +461,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 0.5rem 0;
 }
 
 .herocontact__line {
