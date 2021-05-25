@@ -3,21 +3,17 @@
 }
 
 .background__hero {
+  height: 85.5vh;
   width: 100%;
-  height: 72vh;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
 }
 
 @media (min-width: 1440px) {
   .background__hero {
-    height: 98.5vh;
+    height: 90vh;
   }
-}
-
-.background__hero-about {
-  height: 100%;
 }
 
 .header {
@@ -51,7 +47,6 @@
 }
 
 .menu__navlist {
-  height: 4vh;
   list-style-type: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -256,7 +251,8 @@
 }
 
 .hero__image-div {
-  padding-top: 7.5rem;
+  height: 100%;
+  padding-top: 2.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -414,7 +410,6 @@
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  height: 14vh;
   width: 100%;
   color: #fcdc06;
   background: black;

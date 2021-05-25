@@ -38,7 +38,7 @@ export const pageQuery = graphql`
     indexImage: file(relativePath: { eq: "background.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1800, quality: 100) {
-          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
