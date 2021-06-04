@@ -276,6 +276,7 @@
 }
 
 .resume__title {
+  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -305,7 +306,7 @@
   border-radius: 0.5rem;
   background: #fcdc06;
   color: black;
-  margin-top: 2rem;
+  margin: 1rem 0;
 }
 
 .resume__button:hover {
@@ -416,16 +417,39 @@
   background: black;
 }
 
-.herocontact__icon {
+.herocontact__icon--home {
+  margin: 0;
+  width: 28px;
+  height: 28px;
+  color: #fcdc06;
+}
+
+.herocontact__icon--github {
+  margin: 0;
+  width: 28px;
+  height: 28px;
+  color: #fcdc06;
+}
+
+.herocontact__icon--linkedin {
+  margin: 0;
+  width: 28px;
+  height: 28px;
+  color: #fcdc06;
+}
+
+.herocontact__icon--email {
+  margin: 0;
   width: 28px;
   height: 28px;
   color: #fcdc06;
 }
 
 @media (min-width: 1440px) {
-  .herocontact__icon {
-    height: 50px;
-    width: 50px;
+  .herocontact__icon--email {
+    margin-top: 4px;
+    height: 28px;
+    width: 28px;
   }
 }
 
@@ -447,6 +471,8 @@
   text-decoration: none;
   color: white;
   margin: 0;
+  padding: 0;
+  height: 25px;
 }
 
 .herocontact__section {
@@ -458,10 +484,19 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   padding: 0.5rem 0;
+}
+
+@media (min-width: 1440px) {
+  .herocontact__section {
+    height: 95px;
+  }
 }
 
 .herocontact__line {
@@ -476,5 +511,11 @@
   height: 6px;
   background: black;
   margin: 0;
+}
+
+.herocontact__link {
+  margin: 0;
+  padding: 0;
+  height: 29px;
 }
 /*# sourceMappingURL=main.css.map */

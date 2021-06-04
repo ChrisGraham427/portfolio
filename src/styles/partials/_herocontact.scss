@@ -7,12 +7,34 @@
   color: $mainyellow;
   background: black;
   &__icon {
-    width: 28px;
-    height: 28px;
-    color: $mainyellow;
-    @include desktop {
-      height: 50px;
-      width: 50px;
+    &--home {
+      margin: 0;
+      width: 28px;
+      height: 28px;
+      color: $mainyellow;
+    }
+    &--github {
+      margin: 0;
+      width: 28px;
+      height: 28px;
+      color: $mainyellow;
+    }
+    &--linkedin {
+      margin: 0;
+      width: 28px;
+      height: 28px;
+      color: $mainyellow;
+    }
+    &--email {
+      margin: 0;
+      width: 28px;
+      height: 28px;
+      color: $mainyellow;
+      @include desktop {
+        margin-top: 4px;
+        height: 28px;
+        width: 28px;
+      }
     }
   }
   &__icon:hover {
@@ -30,13 +52,19 @@
     text-decoration: none;
     color: white;
     margin: 0;
+    padding: 0;
+    height: 25px;
   }
   &__section {
     text-align: center;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding: 0.5rem 0;
+    @include desktop {
+      height: 95px;
+    }
   }
   &__line {
     width: 100%;
@@ -49,5 +77,10 @@
       background: black;
       margin: 0;
     }
+  }
+  &__link {
+    margin: 0;
+    padding: 0;
+    height: 29px;
   }
 }
