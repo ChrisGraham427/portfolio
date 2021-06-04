@@ -418,21 +418,21 @@
 }
 
 .herocontact__icon--home {
-  margin: 0;
+  margin: 0.25rem 0;
   width: 28px;
   height: 28px;
   color: #fcdc06;
 }
 
 .herocontact__icon--github {
-  margin: 0;
+  margin: 0.25rem 0;
   width: 28px;
   height: 28px;
   color: #fcdc06;
 }
 
 .herocontact__icon--linkedin {
-  margin: 0;
+  margin: 0.25rem 0;
   width: 28px;
   height: 28px;
   color: #fcdc06;

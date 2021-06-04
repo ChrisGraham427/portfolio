@@ -2,7 +2,7 @@ const path = require("path")
 module.exports = {
   siteMetadata: {
     title: `Chris Graham - Web Developer`,
-    description: `Vancouver, BC based Web Developer. E-Commerce and static site specialist`,
+    description: `Vancouver, BC based Web Developer. E-Commerce and Static Site Specialist`,
     author: `@gatsbyjs`,
   },
   plugins: [
