@@ -1,7 +1,7 @@
 .game {
   &__container {
     background: black;
-    height: 80.25vh;
+    height:auto;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -9,6 +9,7 @@
     text-align: center;
     align-content: center;
     margin: 0;
+    overflow: auto;
   }
   &__board {
     display: inline-flex;

@@ -7,7 +7,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const Project = props => (
-  <Layout>
+  <Layout className="layout__main">
     <Seo title="portfolio" />
     <BackgroundImage
       alt="background-hero"
@@ -21,7 +21,7 @@ const Project = props => (
               src="../images/Atrezi-logo.png"
               formats={["AUTO", "WEBP", "AVIF"]}
               alt="Atrezi"
-              style={{ maxHeight: 500 }}
+              style={{ maxHeight: 300 }}
             />
           </Link>
           <p>
@@ -35,7 +35,7 @@ const Project = props => (
             src="../images/me-ma.png"
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="Me & Ma Organic Microgreens"
-            style={{ maxHeight: 700 }}
+            style={{ maxHeight: 500 }}
           />
           <p>
             Coming Soon! Me & Ma Organic Microgreens is a Gatsby and Shopify
@@ -49,7 +49,7 @@ const Project = props => (
               src="../images/cg-main.png"
               formats={["AUTO", "WEBP", "AVIF"]}
               alt="hero"
-              style={{ maxHeight: 600 }}
+              style={{ maxHeight: 400 }}
             />
           </Link>
           <p>Personal Portfolio site built with Gatsby.</p>

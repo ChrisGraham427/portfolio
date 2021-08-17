@@ -7,7 +7,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const IndexPage = props => (
-  <Layout>
+  <Layout className="layout__main">
     <Seo title="Home" />
     <BackgroundImage
       alt="background-hero"
@@ -20,10 +20,7 @@ const IndexPage = props => (
           src="../images/cg-main.png"
           formats={["AUTO", "WEBP", "AVIF"]}
           alt="hero"
-          style={{
-            maxWidth: 800,
-            maxHeight: 800,
-          }}
+         
         />
         <h2 className="hero__image-tagline">Modern Web Development</h2>
       </div>

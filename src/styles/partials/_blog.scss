@@ -10,9 +10,6 @@
     padding: 1rem 0;
 
     text-align: center;
-    @include desktop {
-      height: 80vmin;
-    }
   }
   &__button-readmore {
     border-radius: 8px;

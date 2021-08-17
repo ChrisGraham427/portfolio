@@ -45,8 +45,8 @@ const HeroContact = () => {
           <p className="herocontact__link-title">cwg.427@gmail.com</p>
         </div>
       </div>
-      <hr className="herocontact__line" />
-      <hr className="herocontact__line-black" />
+      {/* <hr className="herocontact__line" /> */}
+      {/* <hr className="herocontact__line-black" /> */}
     </>
   )
 }

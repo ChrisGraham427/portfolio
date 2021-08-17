@@ -5,10 +5,7 @@ import Gitalk from "gatsby-plugin-gitalk"
 import "@suziwen/gitalk/dist/gitalk.css"
 export default function Template({ data }) {
   const post = data.markdownRemark
-  let gitalkConfig = {
-    id: post.slug || post.id,
-    title: post.frontmatter.title,
-  }
+
   return (
     <>
       <div className="blog__post">
@@ -21,8 +18,6 @@ export default function Template({ data }) {
         </h4>
 
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        <div class="s9-widget-wrapper"></div>
-        <Gitalk options={gitalkConfig} />
       </div>
     </>
   )

@@ -1,17 +1,15 @@
-.hero {
-  &__image {
-    &-div {
-      height: 100%;
-      padding-top: 2.5rem;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-    &-tagline {
-      position: relative;
-      top: -8rem;
-      color: black;
-    }
+.hero__image {
+  max-width: 800px;
+  &-div {
+    display: flex;
+    flex-grow: 0.5;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &-tagline {
+    position: relative;
+    top: -8rem;
+    color: black;
   }
 }

@@ -1,6 +1,6 @@
 .header {
   color: $mainyellow;
-  background: black;
+  background: $maingrey;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -13,7 +13,7 @@
     margin: 0;
 
     &-black {
-      background: black;
+      background: $maingrey;
       height: 4px;
       margin: 0;
     }

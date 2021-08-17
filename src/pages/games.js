@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const GamePage = () => (
-  <Layout>
+  <Layout className="layout__main">
     <Seo title="tic-tac-toe" />
     <TicTacToe />
   </Layout>

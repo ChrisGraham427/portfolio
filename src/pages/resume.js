@@ -13,7 +13,7 @@ const ResumePage = props => (
     className="background__hero"
     className="resume__main"
   >
-    <Layout>
+    <Layout className="layout__main">
       <Seo title="Resume" />
       <div className="resume__container">
         <h1 className="resume__title">Resume</h1>
@@ -22,7 +22,7 @@ const ResumePage = props => (
           formats={["AUTO", "WEBP", "AVIF"]}
           alt="Resume"
           className="resume__image"
-          style={{ maxWidth: 1800, maxHeight: 1800 }}
+         
         />
         <Link to="/">
           <button className="resume__button">HOME</button>
