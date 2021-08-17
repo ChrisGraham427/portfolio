@@ -1,12 +1,13 @@
 .info {
   &__bio {
     text-align: center;
-    background: $mainyellow;
+    background: white;
     padding: 0.5rem;
     color: black;
     margin-top: 1rem;
     max-width: 1000px;
-    border: 3px solid white;
+    border: 3px solid black;
+    box-shadow: 2px 2px 2px $mainyellow;
     border-radius: 1rem;
   }
   &__container {
